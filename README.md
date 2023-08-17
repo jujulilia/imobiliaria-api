@@ -27,7 +27,7 @@ cd imobiliaria-api
 ```
 3. Inicializando o Repositorio
 ```
-composer udate
+composer update
 ```
 4. Copiando o .env do exemplo
 ```
