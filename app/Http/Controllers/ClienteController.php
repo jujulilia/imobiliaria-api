@@ -25,6 +25,10 @@ class ClienteController extends Controller
         ],200);
       }
     public function pesquisaPorId($id){
-        return ClienteModel::find($id);
+        return response()->json([
+        "sucess" => true,
+        "message" => "Consulta realizada com sucesso",
+        "data" => ClienteModel::find($id);
+        ]);
     }
 }
