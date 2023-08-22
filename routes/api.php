@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('cliente', [ClienteController::class, 'cliente']);
+
+route::get('/find/{id}', [ClienteController::class, 'pesquisarPorId']);
